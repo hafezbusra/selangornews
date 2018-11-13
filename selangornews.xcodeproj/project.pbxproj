@@ -14,6 +14,9 @@
 		CC60CCCA21957C9500CF6188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC60CCC821957C9500CF6188 /* LaunchScreen.storyboard */; };
 		CC60CCD521957C9500CF6188 /* selangornewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60CCD421957C9500CF6188 /* selangornewsTests.swift */; };
 		CC60CCE021957C9500CF6188 /* selangornewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60CCDF21957C9500CF6188 /* selangornewsUITests.swift */; };
+		CC81C900219857130079EFFD /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81C8FF219857130079EFFD /* ArticleCell.swift */; };
+		CC81C90221985B010079EFFD /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81C90121985B010079EFFD /* Article.swift */; };
+		CC81C904219A4EB40079EFFD /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81C903219A4EB40079EFFD /* WebviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CC60CCDB21957C9500CF6188 /* selangornewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selangornewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC60CCDF21957C9500CF6188 /* selangornewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selangornewsUITests.swift; sourceTree = "<group>"; };
 		CC60CCE121957C9500CF6188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC81C8FF219857130079EFFD /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		CC81C90121985B010079EFFD /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		CC81C903219A4EB40079EFFD /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				CC60CCC621957C9500CF6188 /* Assets.xcassets */,
 				CC60CCC821957C9500CF6188 /* LaunchScreen.storyboard */,
 				CC60CCCB21957C9500CF6188 /* Info.plist */,
+				CC81C8FF219857130079EFFD /* ArticleCell.swift */,
+				CC81C90121985B010079EFFD /* Article.swift */,
+				CC81C903219A4EB40079EFFD /* WebviewViewController.swift */,
 			);
 			path = selangornews;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC81C90221985B010079EFFD /* Article.swift in Sources */,
+				CC81C904219A4EB40079EFFD /* WebviewViewController.swift in Sources */,
 				CC60CCC221957C8900CF6188 /* ViewController.swift in Sources */,
 				CC60CCC021957C8900CF6188 /* AppDelegate.swift in Sources */,
+				CC81C900219857130079EFFD /* ArticleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
